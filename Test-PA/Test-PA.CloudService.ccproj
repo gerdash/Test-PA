@@ -11,7 +11,7 @@
     <RootNamespace>Test_PA</RootNamespace>
     <AssemblyName>Test_PA</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
-    <Name>Test-PA</Name>
+    <Name>Test-PA.CloudService</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,20 +37,20 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Teat-PA.AppContent" />
+    <Folder Include="Test-PA.AppContent" />
     <Folder Include="WorkerRoleWithSBQueue1Content\" />
   </ItemGroup>
   <ItemGroup>
-    <DiagnosticsConfiguration Include="Teat-PA.AppContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="Test-PA.AppContent\diagnostics.wadcfgx" />
     <DiagnosticsConfiguration Include="WorkerRoleWithSBQueue1Content\diagnostics.wadcfgx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebRole1\Teat-PA.App.csproj">
-      <Name>Teat-PA.App</Name>
+    <ProjectReference Include="..\WebRole1\Test-PA.App.csproj">
+      <Name>Test-PA.App</Name>
       <Project>{8a8fb4bb-3556-40fa-a5c2-df8bb9ed2e03}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
-      <RoleName>Teat-PA.App</RoleName>
+      <RoleName>Test-PA.App</RoleName>
     </ProjectReference>
   </ItemGroup>
   <!-- Import the target files for this project template -->

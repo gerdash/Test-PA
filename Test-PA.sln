@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Test-PA", "Test-PA\Test-PA.ccproj", "{41DC04D7-2648-4297-9159-6868D8146C29}"
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Test-PA.CloudService", "Test-PA\Test-PA.CloudService.ccproj", "{41DC04D7-2648-4297-9159-6868D8146C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teat-PA.App", "WebRole1\Teat-PA.App.csproj", "{8A8FB4BB-3556-40FA-A5C2-DF8BB9ED2E03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-PA.App", "WebRole1\Test-PA.App.csproj", "{8A8FB4BB-3556-40FA-A5C2-DF8BB9ED2E03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
