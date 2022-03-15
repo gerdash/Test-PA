@@ -44,10 +44,10 @@ steps:
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
 
-- task: Npm@1
-  inputs:
-    command: 'install'
-    workingDir: '/PA.Ui'
+# - task: Npm@1
+#   inputs:
+#     command: 'install'
+#     workingDir: '/PA.Ui'
 
 # run lint (possibly a custom npm task)
 
